@@ -310,7 +310,7 @@ h2 {
 .navbar a:hover,
 .navbar .active:focus,
 .navbar li:hover > a {
-	background: #ef6603;
+	background: #ff2f2f;
 }
 
 .navbar .dropdown ul {
@@ -518,3 +518,8 @@ h2 {
 	margin: 0;
 	max-height: 40px;
 }
+
+.sensitive {
+	color: gray;
+}
+

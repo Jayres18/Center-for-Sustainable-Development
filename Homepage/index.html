@@ -30,6 +30,7 @@
   <link rel="icon" type="image/x-icon" href="/Homepage/assets/img/Mini-logo.png">
 
 <body>
+  <div id="preloader"></div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
@@ -43,14 +44,14 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#features">Features</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#features">SDGs</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li> 
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto " href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto " href="#faq">F.A.Q</a></li>
+          <li><a class="nav-link scrollto " href="#faq">F.A.Q.</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a href="/Login/login_page.html">Login</a></li>
+          <li><a href="/Login/login_page.html" target="_blank">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -67,12 +68,15 @@
         <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
       </defs>
       <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,0,255, .4)">
       </g>
       <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,0, .4)">
       </g>
-      <g class="wave3"> 
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="6" fill="rgba(0,255,255, .4)">
+      </g>
+      <g class="wave4"> 
         <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
       </g>
     </svg>
@@ -92,7 +96,7 @@
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
             <p>
-              <strong>Batangas State University - The National Engineering University</strong> as a Higher Education Institution is a leading educational institution committed to advancing sustainability practices and principles in higher education and beyond. 
+              <strong>Batangas State University - The National Engineering University</strong>, a pioneering institution dedicated to promoting Sustainable Development. Our aim is to provide our students with the information, skills, and experience they need to become the next generation of leaders capable of addressing the world's most serious environmental and social concerns.
             </p>
             <p>
               Our university has a long-standing reputation for academic excellence, research, and innovation. We believe that our responsibility extends beyond academic rigor to environmental and social stewardship. We aim to be a leader in sustainable development, and our website is an extension of this commitment.
@@ -127,7 +131,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal1')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_1.png" alt="">
-                <div class="col">
+                <div class="col goal-1">
                   <h5>Goal 1: No Poverty</h5>
                 </div>
             </div>
@@ -136,7 +140,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal2')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_2.png" alt="">
-                <div class="col">
+                <div class="col goal-2">
                   <h5>Goal 2: Zero Hunger</h5>
                 </div>
             </div>
@@ -145,7 +149,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal3')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_3.png" alt="">
-                <div class="col">
+                <div class="col goal-3">
                   <h5>Goal 3: Good Health and Well-being</h5>
                 </div>
             </div>
@@ -154,7 +158,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal4')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_4.png" alt="">
-                <div class="col">
+                <div class="col goal-4">
                   <h5>Goal 4: Quality Education</h5>
                 </div>
             </div>
@@ -163,7 +167,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal5')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_5.png" alt="">
-                <div class="col">
+                <div class="col goal-5">
                   <h5>Goal 5: Gender Equality</h5>
                 </div>
             </div>
@@ -172,7 +176,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal6')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_6.png" alt="">
-                <div class="col">
+                <div class="col goal-6">
                   <h5>Goal 6: Clean Water and Sanitation</h5>
                 </div>
             </div>
@@ -181,7 +185,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal7')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_7.png" alt="">
-                <div class="col">
+                <div class="col goal-7">
                   <h5>Goal 7: Affordable and Clean Energy</h5>
                 </div>
             </div>
@@ -190,7 +194,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal8')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_8.png" alt="">
-                <div class="col">
+                <div class="col goal-8">
                   <h5>Goal 8: Decent Work and Economic Growth</h5>
                 </div>
             </div>
@@ -199,7 +203,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal9')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_9.png" alt="">
-                <div class="col">
+                <div class="col goal-9">
                   <h5>Goal 9: Industry, Innovation and Infrastructure</h5>
                 </div>
             </div>
@@ -208,7 +212,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal10')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_10.png" alt="">
-                <div class="col">
+                <div class="col goal-10">
                   <h5>Goal 10: Reduced Inequalities</h5>
                 </div>
             </div>
@@ -217,7 +221,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal11')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_11.png" alt="">
-                <div class="col">
+                <div class="col goal-11">
                   <h5>Goal 11: Sustainable Cities and Communities</h5>
                 </div>
             </div>
@@ -226,7 +230,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal12')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_12.png" alt="">
-                <div class="col">
+                <div class="col goal-12">
                   <h5>Goal 12: Responsible Consumption and Production</h5>
                 </div>
             </div>
@@ -235,7 +239,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal13')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_13.png" alt="">
-                <div class="col">
+                <div class="col goal-13">
                   <h5>Goal 13: Climate Action</h5>
                 </div>
             </div>
@@ -244,7 +248,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal14')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_14.png" alt="">
-                <div class="col">
+                <div class="col goal-14">
                   <h5>Goal 14: Life Below Water</h5>
                 </div>
             </div>
@@ -253,7 +257,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal15')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_15.png" alt="">
-                <div class="col">
+                <div class="col goal-15">
                   <h5>Goal 15: Life on Land</h5>
                 </div>
             </div>
@@ -262,7 +266,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal16')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_16.png" alt="">
-                <div class="col">
+                <div class="col goal-16">
                   <h5>Goal 16: Peace, Justice and Strong Institutions</h5>
                 </div>
             </div>
@@ -271,7 +275,7 @@
           <button class="tablinks" onclick="openCity(event, 'Goal17')" id="defaultOpen">
             <div class="row">
               <img src="assets/img/Sustainable_Development_Goal_17.png" alt="">
-                <div class="col">
+                <div class="col goal-17">
                   <h5>Goal 17: Partnerships for the Goals</h5>
                 </div>
             </div>
@@ -279,88 +283,105 @@
         </div>
 
         <div id="Goal1" class="tabcontent" data-aos="fade-up">
-          <h3 class="fst-italic">Goal 1: End poverty in all its froms everywhere</h3>
+          <h3 class="fst-italic"><strong>Goal 1: End poverty in all its froms everywhere</strong></h3>
           <p class="fst-italic">&emsp;&emsp;Low birth rates can keep nations in poverty. High family sizes and poverty frequently coexist. Individuals who live in underprivileged areas typically lack the choice to decide how many children they want to have, and in some cases feel pressured to have a large family in order to be supported in old life. Those who are impoverished and have a large family are unable to provide enough for each child, which frequently prevents children from attending school and causes girls to be married off as child brides. When they have a large number of children at home to care for, women are also less able to achieve financial independence. To end poverty, it is essential to make sure that everyone has the freedom to choose small families.</p>
+          <img src="assets/img/1_no_poverty.jpeg" alt="">
         </div>
 
         <div id="Goal2" class="tabcontent">
-          <h3 class="fst-italic">Goal 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture</h3>
+          <h3 class="fst-italic"><strong>Goal 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture</strong></h3>
           <p class="fst-italic">Under prolonged population expansion, it will become harder and eventually impossible to feed the world without further harming the environment. Agriculture is already a major contributor to environmental deterioration, and more land conversion for farming would have catastrophic effects on biodiversity and our climate. The second part of the century is expected to see a population increase to above 10 billion. Past successes are swiftly undone when population growth outpaces development advancements; over the previous three years, there has been an increase in the number of people who are hungry. Scientists have cautioned that unless action is made to lower reproduction rates, vulnerable regions like the Sahel face catastrophe.</p> 
+          <img src="assets/img/2_zero_hunger.jpeg" alt="">
         </div>
 
         <div id="Goal3" class="tabcontent">
-          <h3 class="fst-italic">Goal 3: Ensure healthy lives and promote well-being for all at all ages</h3>
+          <h3 class="fst-italic"><strong>Goal 3: Ensure healthy lives and promote well-being for all at all ages</strong></h3>
           <p class="fst-italic">Healthcare systems that are underfunded may collapse under the weight of expanding populations. High rates of unintended pregnancies and avoidable maternal fatalities are caused by a lack of access to high-quality reproductive healthcare, which includes contemporary contraception and medically safe abortion. Almost 800 women die every day from pregnancy-related complications worldwide, where roughly half of all pregnancies are still unwanted. The total number of women who still need contraception is rising as a result of population expansion. Particularly in locations where health facilities are already stretched thin, extremely high population densities encourage the spread of disease and are detrimental to public health. Investments in universal access to high-quality health care, including family planning services, help to control population growth and enhance quality of life.</p>
+          <img src="assets/img/3_good_health.jpeg" alt="">
         </div>
 
         <div id="Goal4" class="tabcontent">
-          <h3 class="fst-italic">Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</h3>
+          <h3 class="fst-italic"><strong>Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</strong></h3>
           <p class="fst-italic">The answer to reducing poverty and halting population growth is increased investment in high-quality education. Girls suffer disproportionately from lack of access to education as a result of gender inequality. In general, a woman's family size decreases with the length of her education. Delaying childbearing and having fewer kids gives women the freedom to pursue educational possibilities, such higher degrees, which would be challenging or impossible if they had many dependents.</p>
+          <img src="assets/img/4_quality_education.jpeg" alt="">
         </div>
 
         <div id="Goal5" class="tabcontent">
-          <h3 class="fst-italic">Goal 5: Achieve gender equality and empower all women and girls</h3>
+          <h3 class="fst-italic"><strong>Goal 5: Achieve gender equality and empower all women and girls</strong></h3>
           <p class="fst-italic">The key to resolving our most pressing social and environmental challenges is empowering women and girls to take charge of their bodies and lives. One of the key causes of high fertility rates is gender disparity. No nation has yet attained complete equality, and the worst crimes and injustices based on gender are still frequent and pervasive. The UN asserts that it is economical and feasible to put an end to gender-based violence, harmful customs (such as child marriage and FGM), avoidable maternal mortality, and unmet family planning needs, but that there is still a major financing gap. In the meantime, population growth and poor progress are leading to an increase in the number of women and girls who are subjected to hazardous behaviors.</p>
+          <img src="assets/img/5_gender_equality.jpeg" alt="">
         </div>
 
         <div id="Goal6" class="tabcontent">
-          <h3 class="fst-italic">Goal 6: Ensure availability and sustainable management of water and sanitation for all</h3>
+          <h3 class="fst-italic"><strong>Goal 6: Ensure availability and sustainable management of water and sanitation for all</strong></h3>
           <p class="fst-italic">A global water crisis is being exacerbated by population increase and climate change. Aquifers become overdrawn as a result of our expanding population, pollution rises, and the ability to safely dispose of wastewater is increasingly threatened. More than half of the world's population, or 5 billion people, is predicted to reside in water-stressed areas by the year 2050.</p>
+          <img src="assets/img/6_clean_water.jpeg" alt="">
         </div>
 
         <div id="Goal7" class="tabcontent">
-          <h3 class="fst-italic">Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</h3>
+          <h3 class="fst-italic"><strong>Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all</strong></h3>
           <p class="fst-italic">Due to population increase and the delayed adoption of renewable energy, the number of people consuming dirty fuels continues to rise. The next 30 years will see a 50% rise in the world's energy demand as a result of population growth and economic expansion. High-income nations must set the example for the transition to clean fuels and aid low-income nations in following suit. Stopping population growth will increase the likelihood that the world can transition to cheap, clean energy.</p>
+          <img src="assets/img/7_clean_energy.jpeg" alt="">
         </div>
 
         <div id="Goal8" class="tabcontent">
-          <h3 class="fst-italic">Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</h3>
+          <h3 class="fst-italic"><strong>Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</strong></h3>
           <p class="fst-italic">A large number of dependent young people makes economic growth nearly impossible and also breeds social instability. The goal of economic expansion is directly at odds with other SDGs in high-income countries, particularly in terms of the impact on the environment. Unlimited economic and population expansion can never be sustainable on a finite world. We must work toward a healthy environment and everyone's wellbeing as a global community, not just infinite growth.</p>
+          <img src="assets/img/8_decent_work.jpeg" alt="">
         </div>
 
         <div id="Goal9" class="tabcontent">
-          <h3 class="fst-italic">Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</h3>
+          <h3 class="fst-italic"><strong>Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</strong></h3>
           <p class="fst-italic">The more people there are, the more difficult it is to give everyone access to contemporary infrastructure and technologies, and the more natural resources we will obliterate in the process. Construction is a significant producer of greenhouse gases, and the conversion of land to human infrastructure is a major factor in biodiversity loss.</p>
+          <img src="assets/img/9_industry_innovation.jpeg" alt="">
         </div>
 
         <div id="Goal10" class="tabcontent">
-          <h3 class="fst-italic">Goal 10: Reduce inequality within and among countries</h3>
+          <h3 class="fst-italic"><strong>Goal 10: Reduce inequality within and among countries</strong></h3>
           <p class="fst-italic">Between the developed world and the developing world, as well as within individual nations, there are enormous differences. It is crucial to have a more equitable distribution of resources throughout the world. While we must reduce the number of new customers everywhere, the wealthiest among us find that choosing a small family has a greater influence.</p>
+          <img src="assets/img/10_reduced_inequalities.jpeg" alt="">
         </div>
 
         <div id="Goal11" class="tabcontent">
-          <h3 class="fst-italic">Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</h3>
+          <h3 class="fst-italic"><strong>Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</strong></h3>
           <p class="fst-italic">Nowadays, metropolitan regions are home to more than half of the world's population. This percentage is predicted to increase to 68% by 2050. The pace at which infrastructure like clean water, sanitation, health, jobs, and education can be provided may not be able to keep up with the rapid development of urban populations. Land used for human settlement is one of the major contributors to habitat degradation, with metropolitan areas tripling since 1992, according to WWF. For both physical and mental health, having access to green spaces is crucial, but natural and semi-natural areas are increasingly being lost due to housing needs.</p>
+          <img src="assets/img/11_sustainable_cities.jpeg" alt="">
         </div>
 
         <div id="Goal12" class="tabcontent">
-          <h3 class="fst-italic">Goal 12: Ensure sustainable consumption and production patterns</h3>
+          <h3 class="fst-italic"><strong>Goal 12: Ensure sustainable consumption and production patterns</strong></h3>
           <p class="fst-italic">According to the UN, high-income nations have a material footprint per capita that is 60% larger than upper-middle-income nations and more than 13 times higher than low-income nations. Measures to stop our population increase must be taken in conjunction with responsible food consumption and production. The key factor contributing to the expected 71% increase in resource use per person in 2050 above today's levels is the very high number of individuals fleeing poverty. By 2050, we will need three Earths to meet our demands because we are now using resources 1.75 times faster than they can be replenished.</p>
+          <img src="assets/img/12_responsible_consump.jpeg" alt="">
         </div>
 
         <div id="Goal13" class="tabcontent">
-          <h3 class="fst-italic">Goal 13: Take urgent action to combat climate change and its impacts</h3>
+          <h3 class="fst-italic"><strong>Goal 13: Take urgent action to combat climate change and its impacts</strong></h3>
           <p class="fst-italic">The climate catastrophe is mostly caused by unsustainable consumption patterns in high-income countries, but every more human on the earth increases emissions. One of the most effective strategies to reduce atmospheric CO2 by 2050 was determined to be decreasing population increase by educating girls and offering family planning, according to a thorough analysis of the climate solutions now on the market by Project Drawdown.</p>
+          <img src="assets/img/13_climate_act.jpeg" alt="">
         </div>
 
         <div id="Goal14" class="tabcontent">
-          <h3 class="fst-italic">Goal 14: Take urgent action to combat climate change and its impacts</h3>
+          <h3 class="fst-italic"><strong>Goal 14: Take urgent action to combat climate change and its impacts</strong></h3>
           <p class="fst-italic">Population increase exacerbates pollution (plastic and runoff), overfishing, coral bleaching, and the loss of coastal ecosystems. Human activity has destroyed two thirds of marine areas, and sharks, rays, and reef corals are all in danger of going extinct. In order to address the loss of life under the sea, population expansion and excessive consumption must be curbed. Together, family planning, women's education, and empowerment might encourage more women to get involved in managing marine resources, improve food security, and lessen the effects of climate change.</p>
+          <img src="assets/img/14_life_water.jpeg" alt="">
         </div>
 
         <div id="Goal15" class="tabcontent">
-          <h3 class="fst-italic">Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss</h3>
+          <h3 class="fst-italic"><strong>Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss</strong></h3>
           <p class="fst-italic">One of the key reasons for biodiversity loss is the increase in human population. Since 1970, 60% of all vertebrate wildlife populations have disappeared, according to WWF. Our population has more than doubled in that time. A groundbreaking UN assessment from 2019 specifically stated that human population expansion is an indirect driver of biodiversity loss and that "changes to the primary drivers of natural deterioration cannot be realized without revolutionary change that simultaneously tackles the indirect drivers".</p>
+          <img src="assets/img/15_life_land.jpeg" alt="">
         </div>
 
         <div id="Goal16" class="tabcontent">
-          <h3 class="fst-italic">Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</h3>
+          <h3 class="fst-italic"><strong>Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</strong></h3>
           <p class="fst-italic">Conflicts over limited resources are exacerbated by population expansion in an environment lacking in wealth and reliable institutions. By strengthening the basis for stability, educating and empowering women and communities—including ensuring access to voluntary family planning services—can assist the goals of peace and stability. Therefore, women might have more opportunities to participate in civil society and peacebuilding in families that have more control over the number and timing of their children.</p>
+          <img src="assets/img/16_peace_justice.jpeg" alt="">
         </div>
 
         <div id="Goal17" class="tabcontent">
-          <h3 class="fst-italic">Goal 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development</h3>
+          <h3 class="fst-italic"><strong>Goal 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development</strong></h3>
           <p class="fst-italic">A better future depends on cross-sectoral collaborations that acknowledge the critical connections between social and environmental challenges. Unprecedented difficulties brought about by COVID-19 have reversed decades of progress and sparked a severe worldwide crisis. There has never been a more crucial time to fortify alliances and guarantee the following ten years of cooperation for sustainable development. The international community must advocate increased investment in empowering solutions and stimulate acknowledgment of the urgent need to stop human population growth as soon as is morally feasible.</p>
+          <img src="assets/img/17_partnerships.jpeg" alt="">
         </div>
       </div>
     </section>
@@ -372,13 +393,7 @@
       <div class="container">
 
         <div class="row" data-aos="zoom-out">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
+          <img src="assets/img/sdgs-logos-banner_orig.jpg" alt="">
         </div>
 
       </div>
@@ -396,14 +411,14 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="zoom-in-left">
-              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <div class="icon"><i class="bi bi-book" style="color: #a06000;"></i></div>
               <h4 class="title"><a href="">Education and Training</a></h4>
               <p class="description">Inform people and organizations about sustainable practices and assist them in incorporating sustainability into their daily operations, it might include training and workshops.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+              <div class="icon"><i class="bi bi-lightbulb" style="color: #e9bf06;"></i></div>
               <h4 class="title"><a href="">Planning and Strategy</a></h4>
               <p class="description">Provide direction and assistance in creating sustainability plans and strategies that complement regional, governmental, and worldwide sustainable development objectives.</p>
             </div>
@@ -411,14 +426,14 @@
 
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
+              <div class="icon"><i class="bi bi-cpu" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="">Technology and Innovation</a></h4>
               <p class="description">Offer data and resources on eco-friendly inventions and technologies that can assist companies and organizations in lowering their environmental effect.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
+              <div class="icon"><i class="bi bi-hourglass-split" style="color:#faf626;"></i></div>
               <h4 class="title"><a href="">Assessments</a></h4>
               <p class="description">Provide analyses to analyze a business' sustainable practices and pinpoint areas for development.</p>
             </div>
@@ -426,14 +441,14 @@
 
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
-              <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
+              <div class="icon"><i class="bi bi-globe" style="color: #37ff51;"></i></div>
               <h4 class="title"><a href="">Advocacy and Policy Development</a></h4>
               <p class="description">At the local, national, and international levels, it will engage in lobbying and policy formulation to support sustainable development practices.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
+              <div class="icon"><i class="bi bi-heart-half" style="color: #1100ff;"></i></div>
               <h4 class="title"><a href="">Partnerships</a></h4>
               <p class="description">Make it easier for organizations, businesses, and governments to work together to support sustainable development strategies.</p>
             </div>
@@ -454,9 +469,9 @@
 
         <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
           <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
+          <li data-filter=".filter-app">Programs</li>
+          <li data-filter=".filter-card">Meetings</li>
+          <li data-filter=".filter-web">Collabs</li>
         </ul>
 
         <div class="row portfolio-container" data-aos="fade-up">
@@ -472,6 +487,36 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/collab_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>BS Development Communication collab with the Center for Sustainable Development</h4>
+              <p>December 12, 2022</p>
+              <a href="assets/img/portfolio/collab_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="DevCom, CSD collab for SDG exhibit"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/mangrove_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>5000 Mangrove Saplings Plant</h4>
+              <p>January 27, 2023</p>
+              <a href="assets/img/portfolio/mangrove_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BatStateU joins in planting 5000 mangrove saplings"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/pledge.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Pledge of support to UN SDGs</h4>
+              <p>January 24, 2023</p>
+              <a href="assets/img/portfolio/pledge_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Strong encouragement of the University to all its stakeholders to take part in attaining the Global Goals"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/Adopt-a-SAMMAM-Feeding-Project-1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Adopt-a-SAM/MAM Feeding Project</h4>
@@ -481,72 +526,32 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/sus_summit_1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <h4>First-ever Sustainability Summit</h4>
+              <p>January 24, 2023</p>
+              <a href="assets/img/portfolio/sus_summit_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Convention of Sustainability Summit"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/portfolio/lecture_1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <h4>A Lecture on Climate Change Action towards a Sustainable Planet</h4>
+              <p>December 12, 2022</p>
+              <a href="assets/img/portfolio/lecture_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Attendees include UCCAP Committee, Heads of EUSDO, and Student Council"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/portfolio/draft_1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <h4>Draft Presentation of the BatStateU's Policy Guidelines for Sustainable Development</h4>
+              <p>November 25, 2022</p>
+              <a href="assets/img/portfolio/draft_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Batangas State University through the Center for Sustainable Development"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -572,11 +577,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Zǎo shang hǎo zhōng guó! Xiàn zài wǒ yǒu bing chilling Wǒ hěn xǐ huān bing chilling Dàn shì "sù dù yǔ jī qíng jiǔ" bǐ bing chilling
+                  As a business owner, I am constantly looking for ways to reduce my environmental impact. The sustainable development strategies I learned from this website have been invaluable in helping me achieve my goals. I highly recommend it to anyone who wants to make a positive impact on the planet.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Vincent Kennedy McMahon</h3>
+                <img src="assets/img/team/male.jpeg" class="testimonial-img" alt="">
+                <h3>???</h3>
                 <h4>Ceo &amp; Founder</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -585,11 +590,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Zǎo shang hǎo zhōng guó! Xiàn zài wǒ yǒu bing chilling Wǒ hěn xǐ huān bing chilling Dàn shì "sù dù yǔ jī qíng jiǔ" bǐ bing chilling
+                  This website has opened my eyes to the importance of sustainable development. It provides practical tips and advice that anyone can use to live a more eco-friendly lifestyle. Thanks to this site, I have made changes in my own life that have helped me reduce my carbon footprint.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>John Cena</h3>
+                <img src="assets/img/team/male.jpeg" class="testimonial-img" alt="">
+                <h3>???</h3>
                 <h4>Designer</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -598,11 +603,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Zǎo shang hǎo zhōng guó! Xiàn zài wǒ yǒu bing chilling Wǒ hěn xǐ huān bing chilling Dàn shì "sù dù yǔ jī qíng jiǔ" bǐ bing chilling
+                  I have been following this website for months now and it has been an amazing resource for learning about sustainable development. The information provided is well-researched and easy to understand, making it accessible to people from all walks of life. I highly recommend this website to anyone who wants to learn more about sustainability.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Joel Chavez</h3>
+                <img src="assets/img/team/male.jpeg" class="testimonial-img" alt="">
+                <h3>???</h3>
                 <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -611,11 +616,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Zǎo shang hǎo zhōng guó! Xiàn zài wǒ yǒu bing chilling Wǒ hěn xǐ huān bing chilling Dàn shì "sù dù yǔ jī qíng jiǔ" bǐ bing chilling
+                  I was skeptical at first about the impact I could make by adopting sustainable development practices, but this website has convinced me otherwise. The tips and strategies provided have helped me make a significant impact in reducing my waste and energy consumption. I am grateful to have found this valuable resource.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Vincent Van Gogh</h3>
+                <img src="assets/img/team/male.jpeg" class="testimonial-img" alt="">
+                <h3>???</h3>
                 <h4>Freelancer</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -624,11 +629,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Zǎo shang hǎo zhōng guó! Xiàn zài wǒ yǒu bing chilling Wǒ hěn xǐ huān bing chilling Dàn shì "sù dù yǔ jī qíng jiǔ" bǐ bing chilling
+                  This website is a fantastic resource for anyone who is passionate about sustainable development. The articles are informative and inspiring, and the community is supportive and encouraging. I have learned so much from this site and I am grateful for the positive impact it has had on my life.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John F. Kennedy</h3>
+                <img src="assets/img/team/male.jpeg" class="testimonial-img" alt="">
+                <h3>???</h3>
                 <h4>Entrepreneur</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -647,7 +652,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
-          <h2>F.A.Q</h2>
+          <h2>F.A.Q.</h2>
           <p>Frequently Asked Questions</p>
         </div>
 
@@ -729,9 +734,9 @@
                 <img src="assets/img/team/male.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100068375391906"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/jk.decastro/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://ph.linkedin.com/in/john-kevin-de-castro-853a9383"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -811,7 +816,7 @@
 
         <div class="row mt-5">
 
-          <div class="col-lg-4" data-aos="fade-right">
+          <div class="col" data-aos="fade-right">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -820,9 +825,10 @@
               </div>
 
               <div class="email">
-                <i class="bi bi-envelope"></i>
+                <a href="https://mail.google.com/mail/u/0/?fs=2&to=csd@g.batstate-u.edu.ph&tf=cm" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a>
+                
                 <h4>Email:</h4>
-                <p>johnkevin.decastro@g.batstate-u.edu.ph</p>
+                <p>csd@g.batstate-u.edu.ph</p>
               </div>
 
               <div class="phone">
@@ -832,33 +838,6 @@
               </div>
 
             </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
 
           </div>
 
@@ -872,8 +851,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Sustainable Development Office</h3>
-      <p>You break it. We fix it!</p>
+      <h3>Center for Sustainable Development</h3>
+      <p>"Building a better future for all, one sustainable step at a time."</p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -882,7 +861,7 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>SDO</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>CSD</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -906,7 +885,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    var loader = document.getElementById("preloader");
+    
+    window.addEventListener("load", function(){
+      loader.style.display = "none";
+    })
+  </script>
 </body>
 
 </html>

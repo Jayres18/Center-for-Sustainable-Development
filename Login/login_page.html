@@ -15,10 +15,11 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Login - Sustainable Development Office</title>
+    <title>Login - Center for Sustainable Development</title>
   </head>
 
   <body>
+    <div id="preloader"></div>
     <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
       <div class="container d-flex align-items-center justify-content-between">
 
@@ -35,6 +36,7 @@
     </header>
 
     <div class="d-lg-flex half">
+      
       <div class="bg order-1 order-md-2" style="background-image: url('images/login-malala.png');"></div>
       <div class="contents order-2 order-md-1">
 
@@ -43,7 +45,7 @@
             <div class="col-md-7">
               <div class="mb-4">
                 <h3>Sign In</h3>
-                <p class="mb-4">Sustainable Development Office - BatStateU</p>
+                <p class="mb-4">Center for Sustainable Development - BatStateU</p>
               </div>
               <form action="#" method="post">
                 <div class="form-group first">
@@ -57,7 +59,7 @@
                   
                 </div>
 
-                <div class="mb-4">
+                <div class="mb-4 sensitive">
                   *Password is case sensitive
                 </div>
                 
@@ -84,5 +86,13 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    var loader = document.getElementById("preloader");
+    
+    window.addEventListener("load", function(){
+      loader.style.display = "none";
+    })
+  </script>
+  
   </body>
 </html>
