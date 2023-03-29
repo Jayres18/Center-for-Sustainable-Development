@@ -689,3 +689,26 @@ h2 {
   	cursor: pointer;
   	transition: 0.3s;
 }
+
+#preloader {
+	background: rgb(243, 243, 243) url('../images/preloader.gif') no-repeat center center; 
+	background-size: 15%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(transparent,#ff0000);
+	border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: linear-gradient(transparent,#ff4848);
+}
