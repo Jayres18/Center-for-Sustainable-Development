@@ -500,7 +500,7 @@ section {
 	width: 120px;
 	height: 1px;
 	display: inline-block;
-	background: #fd9042;
+	background: #ff0000;
 	margin: 4px 10px;
 }
 
@@ -1274,7 +1274,8 @@ section {
 --------------------------------------------------------------*/
 .team {
 	background: #fff;
-	padding: 60px 0;
+	padding-top: 60px;
+	padding-bottom: 0;
 }
 
 .team .member {
@@ -1636,4 +1637,91 @@ section {
 	width: 100%;
 	position: fixed;
 	z-index: 999;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.dev-team {
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+
+.dev-team .member {
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dev-team .member .member-img {
+	position: relative;
+	overflow: hidden;
+}
+
+.dev-team .member .social {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	right: 0;
+	opacity: 0;
+	transition: ease-in-out 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dev-team .member .social a {
+	transition: color 0.3s;
+	margin: 0 3px;
+	border-radius: 50px;
+	width: 36px;
+	height: 36px;
+	background: rgb(255, 158, 158);
+	transition: ease-in-out 0.3s;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dev-team .member .social a:hover {
+	background: #ff0000;
+}
+
+.dev-team .member .social i {
+	font-size: 18px;
+	line-height: 0;
+}
+
+.dev-team .member .member-info {
+	padding: 25px 15px;
+}
+
+.dev-team .member .member-info h4 {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 18px;
+	color: #2a2c39;
+}
+
+.dev-team .member .member-info span {
+	display: block;
+	font-size: 13px;
+	font-weight: 400;
+	color: #aaaaaa;
+}
+
+.dev-team .member .member-info p {
+	font-style: italic;
+	font-size: 14px;
+	line-height: 26px;
+	color: #777777;
+}
+
+.dev-team .member:hover .social {
+	opacity: 1;
+	bottom: 15px;
 }
